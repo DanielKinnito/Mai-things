@@ -1,0 +1,30 @@
+# Node.js
+/frontend/node_modules
+/frontend/.next
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# Python
+/backend/__pycache__/
+/backend/*.py[cod]
+/backend/env/
+/backend/.env
+
+# Django
+/backend/db.sqlite3
+/backend/staticfiles/
+/backend/media/
+
+# Docker
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# Miscellaneous
+.DS_Store
+*.log
+*.bak
+*.swp
+*.tmp
+*.temp
